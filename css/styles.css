@@ -375,6 +375,9 @@ img {
 /* FOOTER */
 .footer {
     background-color: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
 }
 
 .footer-title {
@@ -395,10 +398,13 @@ img {
     color: #f4f4fd;
 }
 
+
 .footer-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
     color: #F4F4FD;
+    margin-top: 16px;
 }
