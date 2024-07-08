@@ -36,12 +36,9 @@ img {
     display: block;
 }
 
-.header-container {
+.container-section {
     display: flex;
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
+
 }
 
 .container {
@@ -99,8 +96,8 @@ img {
 }
 
 .nav {
-    color: #2E2F42;
     display: flex;
+    color: #2E2F42;
     list-style: none;
     align-items: center;
 }
@@ -120,11 +117,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 40px;
+    /* padding: 40px; */
+    padding: 24px 0
 }
 
 .header-menu-link {
     color: #2e2f42;
+    padding: 24px 0;
     /* padding-top: 24px;
     padding-bottom: 24px; */
 }
@@ -157,7 +156,7 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     display: flex;
-    margin-left: auto;
+    margin-left: 0 auto;
     align-items: center;
     gap: 40px;
 
