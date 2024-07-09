@@ -42,7 +42,7 @@ img {
 }
 
 .container {
-    /* display: flex; */
+    display: flex;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -258,6 +258,8 @@ img {
 
 .features-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
     padding: 120px 156px;
 }
