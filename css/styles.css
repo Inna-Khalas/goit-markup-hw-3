@@ -36,16 +36,15 @@ img {
     display: block;
 }
 
-.container-section {
+.header-section {
     display: flex;
 
 }
 
 .container {
-    display: flex;
+
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -80,7 +79,6 @@ img {
     color: #4d5ae5;
     margin-right: 76px;
     margin-left: 156px;
-    */
 }
 
 .header-logo-color {
@@ -102,6 +100,7 @@ img {
     border-bottom: 1px solid #e7e9fc;
     /* width: 1440px;
     height: 72px; */
+
 
 
 }
@@ -158,6 +157,8 @@ img {
     color: #2e2f42;
 
 
+
+
 }
 
 .header-list-info {
@@ -182,8 +183,6 @@ img {
     color: #434455;
 
 
-
-
 }
 
 .header-item-address {
@@ -195,6 +194,7 @@ img {
     /* padding-top: 24px;
     padding-bottom: 24px; */
     display: inline-block;
+
 
 }
 
@@ -242,7 +242,6 @@ img {
     background-color: #4D5AE5;
     color: #fff;
     cursor: pointer;
-
     border-radius: 4px;
     border: none;
     display: block;
@@ -438,7 +437,6 @@ img {
     background-color: #2E2F42;
     padding: 100px 0;
     margin-bottom: 16px;
-    display: inline-block;
     /* padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 156px; */
@@ -462,7 +460,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
-    display: inline-block;
     color: #f4f4fd;
 }
 
@@ -474,5 +471,5 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
     color: #F4F4FD;
-    margin-top: 16px;
+    /* margin-top: 16px; */
 }
