@@ -10,11 +10,11 @@ body {
     background-color: #ffffff;
 }
 
-ul {
+ul,
+ol {
     list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -34,11 +34,6 @@ h6 {
 
 img {
     display: block;
-}
-
-.header-section {
-    display: flex;
-
 }
 
 .container {
@@ -105,6 +100,12 @@ img {
 
 }
 
+.header-section {
+    display: flex;
+    align-items: center;
+
+}
+
 .nav {
     display: flex;
     color: #2E2F42;
@@ -115,6 +116,7 @@ img {
 .header-menu-list {
     color: #2e2f42;
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 40px;
     padding: 24px 0;
@@ -149,11 +151,10 @@ img {
 
 .header-link-info {
     font-style: normal;
+    margin-left: auto;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    display: flex;
-    align-items: center;
     color: #2e2f42;
 
 
